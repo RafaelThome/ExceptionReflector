@@ -31,6 +31,7 @@
             this.splitContainer = new System.Windows.Forms.SplitContainer();
             this.itemTreeView = new System.Windows.Forms.TreeView();
             this.loadAssemblyLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.lnklblClipboardCopy = new System.Windows.Forms.LinkLabel();
             this.labelAvailableExceptions = new System.Windows.Forms.Label();
             this.exceptionList = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
@@ -41,7 +42,9 @@
             // 
             // splitContainer
             // 
-            this.splitContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer.Location = new System.Drawing.Point(0, 0);
             this.splitContainer.Name = "splitContainer";
             // 
@@ -52,10 +55,11 @@
             // 
             // splitContainer.Panel2
             // 
+            this.splitContainer.Panel2.Controls.Add(this.lnklblClipboardCopy);
             this.splitContainer.Panel2.Controls.Add(this.labelAvailableExceptions);
             this.splitContainer.Panel2.Controls.Add(this.exceptionList);
-            this.splitContainer.Size = new System.Drawing.Size(983, 461);
-            this.splitContainer.SplitterDistance = 492;
+            this.splitContainer.Size = new System.Drawing.Size(1238, 504);
+            this.splitContainer.SplitterDistance = 853;
             this.splitContainer.TabIndex = 0;
             // 
             // itemTreeView
@@ -65,7 +69,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.itemTreeView.Location = new System.Drawing.Point(15, 32);
             this.itemTreeView.Name = "itemTreeView";
-            this.itemTreeView.Size = new System.Drawing.Size(463, 420);
+            this.itemTreeView.Size = new System.Drawing.Size(824, 463);
             this.itemTreeView.TabIndex = 1;
             this.itemTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.itemTreeView_AfterSelect);
             // 
@@ -79,6 +83,18 @@
             this.loadAssemblyLinkLabel.TabStop = true;
             this.loadAssemblyLinkLabel.Text = "Click here to load an assembly";
             this.loadAssemblyLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.loadAssemblyLinkLabel_LinkClicked);
+            // 
+            // lnklblClipboardCopy
+            // 
+            this.lnklblClipboardCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lnklblClipboardCopy.AutoSize = true;
+            this.lnklblClipboardCopy.Location = new System.Drawing.Point(279, 9);
+            this.lnklblClipboardCopy.Name = "lnklblClipboardCopy";
+            this.lnklblClipboardCopy.Size = new System.Drawing.Size(90, 13);
+            this.lnklblClipboardCopy.TabIndex = 2;
+            this.lnklblClipboardCopy.TabStop = true;
+            this.lnklblClipboardCopy.Text = "Copy to Clipboard";
+            this.lnklblClipboardCopy.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklblClipboardCopy_LinkClicked);
             // 
             // labelAvailableExceptions
             // 
@@ -97,14 +113,15 @@
             this.exceptionList.FormattingEnabled = true;
             this.exceptionList.Location = new System.Drawing.Point(19, 32);
             this.exceptionList.Name = "exceptionList";
-            this.exceptionList.Size = new System.Drawing.Size(456, 420);
+            this.exceptionList.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.exceptionList.Size = new System.Drawing.Size(350, 459);
             this.exceptionList.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(983, 461);
+            this.ClientSize = new System.Drawing.Size(1238, 504);
             this.Controls.Add(this.splitContainer);
             this.Name = "MainForm";
             this.Text = "Exception Reflector";
@@ -125,6 +142,7 @@
         private System.Windows.Forms.LinkLabel loadAssemblyLinkLabel;
         private System.Windows.Forms.Label labelAvailableExceptions;
         private System.Windows.Forms.ListBox exceptionList;
+        private System.Windows.Forms.LinkLabel lnklblClipboardCopy;
     }
 }
 

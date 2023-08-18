@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExceptionReflector.AssemblyEnumerator" Collapsed="true">
+    <Position X="22.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAEAgAAAAEAQAABAAAAAAAA=</HashCode>
+      <FileName>AssemblyEnumerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ExceptionEnumerator" Collapsed="true">
+    <Position X="26.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExceptionEnumerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.MainForm" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAIBACAAACIAAAKAACAAQAAEAgAAAAAAEA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.MethodInfoExtensions" Collapsed="true">
+    <Position X="26.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.Program" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.DefaultFormatProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAIAAhAAAAAAQQAAAAAAAAAYAAAAAAAABA=</HashCode>
+      <FileName>ILReader\DefaultFormatProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ILInstruction" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAAAAAAAgAQ=</HashCode>
+      <FileName>ILReader\ILInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ILInstructionVisitor" Collapsed="true">
+    <Position X="15" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAcgIAAAAIIAAAIEAAAAGAAAAAAAAAAAAAAAEIAFA=</HashCode>
+      <FileName>ILReader\ILInstructionVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ILReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAgAAQCACAAEBgAAAAAiAAARAAAAEAEAAAREAAACAA=</HashCode>
+      <FileName>ILReader\ILReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineBrTargetInstruction" Collapsed="true">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineBrTargetInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineFieldInstruction" Collapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAEBgAA=</HashCode>
+      <FileName>ILReader\InlineFieldInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineI8Instruction" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineI8Instruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineIInstruction" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineIInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineMethodInstruction" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAQAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ILReader\InlineMethodInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineNoneInstruction" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineNoneInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineRInstruction" Collapsed="true">
+    <Position X="22.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineRInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineSigInstruction" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAABAAE=</HashCode>
+      <FileName>ILReader\InlineSigInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineStringInstruction" Collapsed="true">
+    <Position X="36" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAwAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ILReader\InlineStringInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineSwitchInstruction" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aIAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineSwitchInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineTokInstruction" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAAAAAAAAAAAAAAAABIAIAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ILReader\InlineTokInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineTypeInstruction" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAQAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>ILReader\InlineTypeInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.InlineVarInstruction" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\InlineVarInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.MethodBaseILProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ILReader\MethodBaseILProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.RawILStringToTextWriter" Collapsed="true">
+    <Position X="18" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\RawILStringToTextWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.RawILStringVisitor" Collapsed="true">
+    <Position X="15" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAcgAAAAAIAAAAAEAAAAGAAAAAAAAAAAAAAAEIABA=</HashCode>
+      <FileName>ILReader\RawILStringVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ReadableILStringToTextWriter" Collapsed="true">
+    <Position X="18" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ILReader\ReadableILStringToTextWriter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ReadableILStringVisitor" Collapsed="true">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAcgIAAAAIIAAAIEIAAAGAAAAAAAAAAAAAAAEIAFA=</HashCode>
+      <FileName>ILReader\ReadableILStringVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ShortInlineBrTargetInstruction" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\ShortInlineBrTargetInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ShortInlineIInstruction" Collapsed="true">
+    <Position X="24.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\ShortInlineIInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ShortInlineRInstruction" Collapsed="true">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\ShortInlineRInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ShortInlineVarInstruction" Collapsed="true">
+    <Position X="38.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\ShortInlineVarInstruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.ILReader.ModuleScopeTokenResolver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAgBAAAEAADQAAAAAAAAAAAACAAQAAA=</HashCode>
+      <FileName>ILReader\TokenResolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExceptionReflector.Properties.Resources" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQABEgAAAQgAAAAAAAAAAAAAEIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionReflector.Properties.Settings" Collapsed="true">
+    <Position X="26.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ExceptionReflector.ILReader.IFormatProvider" Collapsed="true">
+    <Position X="22.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAIAAhAAAAAAQQAAAAAAAAAIAAAAAAAABA=</HashCode>
+      <FileName>ILReader\FormatProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExceptionReflector.ILReader.IILStringCollector" Collapsed="true">
+    <Position X="26.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ILReader\IILStringCollector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExceptionReflector.ILReader.IILProvider" Collapsed="true">
+    <Position X="24.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ILReader\ILProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExceptionReflector.ILReader.ITokenResolver" Collapsed="true">
+    <Position X="28" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAgBAAAAAACAAAAAAAAAAAAACAAQAAA=</HashCode>
+      <FileName>ILReader\ITokenResolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58393BD4-289C-4068-AED2-1BB7D7D5A754}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExceptionReflector</RootNamespace>
+    <AssemblyName>ExceptionReflector</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.XmlTransform, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=2.14.0.832, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Core.2.14.0\lib\net40-Client\NuGet.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\AssemblyEnumerator.cs" />
+    <Compile Include="Src\Helpers\Config\ExceptionReflectorConfigurationSection.cs" />
+    <Compile Include="Src\Helpers\Config\ExceptionReflectorSettings.cs" />
+    <Compile Include="Src\Helpers\Config\ForbidenExceptionTypeConfigElement.cs" />
+    <Compile Include="Src\Helpers\Config\ForbidenExceptionTypesConfigElemCollection.cs" />
+    <Compile Include="Src\Helpers\MethodOffsetRange.cs" />
+    <Compile Include="Src\ExceptionEnumerator.cs" />
+    <Compile Include="Src\Helpers\ExceptionHierarchy.cs" />
+    <Compile Include="Src\Helpers\OpCodeExtensions.cs" />
+    <Compile Include="Src\Helpers\ProtectedContext.cs" />
+    <Compile Include="Src\Helpers\ProtectedContexts.cs" />
+    <Compile Include="Src\Helpers\TypeHierarchy.cs" />
+    <Compile Include="Src\Helpers\ILReader\DefaultFormatProvider.cs" />
+    <Compile Include="Src\Helpers\ILReader\FormatProvider.cs" />
+    <Compile Include="Src\Helpers\ILReader\IILStringCollector.cs" />
+    <Compile Include="Src\Helpers\ILReader\ILInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\ILInstructionVisitor.cs" />
+    <Compile Include="Src\Helpers\ILReader\ILProvider.cs" />
+    <Compile Include="Src\Helpers\ILReader\ILReader.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineBrTargetInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineFieldInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineI8Instruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineIInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineMethodInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineNoneInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineRInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineSigInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineStringInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineSwitchInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineTokInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineTypeInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\InlineVarInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\ITokenResolver.cs" />
+    <Compile Include="Src\Helpers\ILReader\MethodBaseILProvider.cs" />
+    <Compile Include="Src\Helpers\ILReader\RawILStringToTextWriter.cs" />
+    <Compile Include="Src\Helpers\ILReader\RawILStringVisitor.cs" />
+    <Compile Include="Src\Helpers\ILReader\ReadableILStringToTextWriter.cs" />
+    <Compile Include="Src\Helpers\ILReader\ReadableILStringVisitor.cs" />
+    <Compile Include="Src\Helpers\ILReader\ShortInlineBrTargetInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\ShortInlineIInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\ShortInlineRInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\ShortInlineVarInstruction.cs" />
+    <Compile Include="Src\Helpers\ILReader\TokenResolver.cs" />
+    <Compile Include="Src\Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Src\Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Src\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Src\Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
